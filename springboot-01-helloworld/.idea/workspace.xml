@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9c47216-35d7-4818-8845-d39885c2e448" name="Default Changelist" comment="" />
+    <list default="true" id="e9c47216-35d7-4818-8845-d39885c2e448" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/SpringBoot-01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/springboot-01-helloworld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springboot-01-helloworld.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-01-helloworld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-01-helloworld.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SpringBoot-01" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -47,13 +53,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -93,6 +100,7 @@
       <workItem from="1617959745553" duration="316000" />
       <workItem from="1617960477649" duration="1643000" />
       <workItem from="1618208900084" duration="9847000" />
+      <workItem from="1618225096433" duration="51000" />
     </task>
     <servers />
   </component>
@@ -108,10 +116,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1618216251800" />
-    <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1617936345186">
+    <state x="463" y="127" key="FileChooserDialogImpl" timestamp="1618225143469">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1617936345186" />
+    <state x="463" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1618225143469" />
     <state width="1323" height="184" key="GridCell.Tab.0.bottom" timestamp="1618223973709">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -144,10 +152,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="184" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1618223973709" />
-    <state x="186" y="14" key="SettingsEditor" timestamp="1617961438456">
+    <state x="186" y="14" key="SettingsEditor" timestamp="1618225134458">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1617961438456" />
+    <state x="186" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1618225134458" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1618209041245">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
