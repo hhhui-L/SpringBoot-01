@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties;
+import org.springframework.cache.interceptor.CacheAspectSupport;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
@@ -33,6 +35,15 @@ public class MainApplication {
         for(String name:names){
             System.out.println(name);
         }
+
+        int beanDefinitionCount = run.getBeanDefinitionCount();
+        System.out.println(beanDefinitionCount);
+
+        String[] beanNamesForType = run.getBeanNamesForType(CacheAspectSupport.class);
+        System.out.println("----------->"+beanNamesForType.length);
+
+        String[] beanNamesForType1 = run.getBeanNamesForType(WebMvcProperties.class);
+        System.out.println("----------->"+beanNamesForType1.length);
 //        //3.从容器中获取组件
 //        Pet tom01=run.getBean("tom", Pet.class);
 //        Pet tom02=run.getBean("tom",Pet.class);
@@ -70,5 +81,11 @@ public class MainApplication {
 
         boolean tom22 = run.containsBean("tom22");
         System.out.println("容器中tom22组件"+tom22);
+
+        boolean haha = run.containsBean("haha");
+        boolean hehe = run.containsBean("hehe");
+        System.out.println("haha:"+haha);
+        System.out.println("hehe:"+hehe);
     }
 }
+
